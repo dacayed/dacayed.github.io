@@ -1,0 +1,105 @@
+
+header{
+    padding-bottom:100px;
+}
+
+main{
+    display:grid;
+    justify-content: center;
+    grid-row-gap: 5vw;
+}
+
+.card > img{
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px 5px #063a00;
+    width:100%;
+}
+
+
+.threeDAnimation > video{
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px 5px #063a00;
+    width:100%;
+}
+
+.threeDAnimation > .textBox{
+    padding-top: 15px;
+}
+
+.threeDAnimation > .textBox > span{
+    font-size: 1.2em;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.threeDAnimation{
+    display: grid;
+    grid-template-rows:auto auto;
+    grid-column-gap: 15px;
+    max-width: 1000px;
+    background-color: #0b6b00;
+    padding:25px;
+    border-radius: 8px;
+    color: #27d151;
+    box-shadow: 0px 0px 5px 2px #0b6b00;
+}
+
+
+.card{
+    display: grid;
+    grid-template-columns:auto auto;
+    grid-column-gap: 15px;
+    max-width: 1000px;
+    background-color: #0b6b00;
+    padding:25px;
+    border-radius: 8px;
+    color: #27d151;
+    box-shadow: 0px 0px 5px 2px #0b6b00;
+}
+
+
+
+.discription{
+    margin-left: 15px;
+    padding-bottom: 25px;
+}
+
+.textBox{
+    position: relative;
+}
+
+.discription>h3{
+    padding-top: 10px;
+    padding-bottom: 5px;
+}
+
+.card > div > span {
+    font-size: 1.2em;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    position: absolute; bottom: 0; right: 0;
+    padding-right:2px;
+}
+
+@media screen and (max-width: 1025px) {
+    header{
+        padding-bottom:20px;
+    }
+    .card{
+        grid-template-columns: auto;
+        grid-template-rows:auto auto;
+        box-shadow:0 0;
+    }
+    .textBox{
+        padding-top:15px;
+    }
+    .card > div > span{
+        position:unset;
+        align-self: center;
+    }
+    .threeDAnimation{
+        box-shadow: 0 0;
+    }
+}
