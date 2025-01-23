@@ -11,7 +11,7 @@
     display:flex;
     gap: 1rem;
     animation: scroll 20s infinite ease-in-out;
-    color:#27D515;
+    color:#095702;
 }
 
 @keyframes scroll {
@@ -111,4 +111,9 @@
 
 .is_hidden{
     display:none;
+}
+
+article{
+    padding-top: 100px;
+    padding-left: 5em;
 }
