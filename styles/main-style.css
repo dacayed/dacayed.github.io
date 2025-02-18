@@ -116,7 +116,9 @@ footer > p {
 .email{
     padding-top: 30px;
     padding-bottom: 10px;
-    text-decoration: underline;
+}
+.email:hover{
+    color: #69ec92
 }
 
 @media (max-width: 1025px) {
